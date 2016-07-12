@@ -9,5 +9,5 @@ deployment:
           revision_type: S3
           s3_location:
             bucket: amazonbuckettest
-            key_pattern: circleci-demo-app-master-firstcommit
+            key_pattern: circleci-demo-app-master-firstcommit1
         deployment_group: MyTestGroup
