@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
- - source: /home/ubuntu/circleweb/target/circleweb.war 
-   destination: /opt/server/apache-tomcat-7.0.70/webapps
+ - source: /
+   destination: /opt/server/apache-tomcat-7.0.70/webapps/
 
