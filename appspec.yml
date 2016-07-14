@@ -3,4 +3,9 @@ os: linux
 files:
  - source: /
    destination: /opt/server/apache-tomcat-7.0.70/webapps/
+hooks:  
+  BeforeInstall:
+    - location: .scripts/test.sh
+      timeout: 300
+      runas: root
 
